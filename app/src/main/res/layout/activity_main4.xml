@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDFEFE"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:layout_width="372dp"
+        android:layout_height="330dp"
+        android:layout_gravity="center"
+        android:src="@drawable/familia1"
+        />
+
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="159dp"
+        android:layout_gravity="center"
+        android:background="#CFCFCF"
+        android:text="Esta imagen fue tomada en un recorrido por el zoologico de guadalajara en compañia de mis tios y primos
+en vacaciones de julio."
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="Regresar"
+        android:textSize="30dp"
+        android:textColor="#FBFBFD"
+        android:background="#0A5DEA"
+        />
+
+
+
+</GridLayout>
